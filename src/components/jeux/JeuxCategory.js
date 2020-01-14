@@ -11,9 +11,11 @@ class JeuxCategory extends React.Component {
     }
     render(){
         return(
-            <div>
-                JeuxCategory
-            </div>
+            <tr>
+                <th colSpan="2">
+                    {this.props.category}
+                </th>
+            </tr>
         )
     }
 
